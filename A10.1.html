@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<head>
+    <title>Shopping Cart Simulation</title>
+    <link rel="stylesheet" href="A10.1.css">
+</head>
+<body>
+    <div id="shopping-cart-container">
+        <h1>Shopping Cart Simulation</h1>
+        <div id="product-list">
+            <h2>Products</h2>
+            <div class="product" data-name="Apple" data-price="1">
+                <span>Apple - $1</span>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+            <div class="product" data-name="Banana" data-price="0.5">
+                <span>Banana - $0.5</span>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+            <div class="product" data-name="Orange" data-price="0.75">
+                <span>Orange - $0.75</span>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+        </div>
+        <div id="cart">
+            <h2>Cart</h2>
+            <ul id="cart-items"></ul>
+            <div id="total-price">Total: $0</div>
+            <button id="checkout-btn">Checkout</button>
+        </div>
+    </div>
+    <script src="A10.1.js"></script>
+</body>
+</html>
